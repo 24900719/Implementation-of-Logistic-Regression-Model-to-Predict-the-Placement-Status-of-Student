@@ -21,6 +21,7 @@ Developed by:K SARANYA
 RegisterNumber: 212224040298 
 */
 ```
+```
 import pandas as pd
 data=pd.read_csv("Placement_Data.csv")
 data.head()
@@ -61,6 +62,7 @@ print("\nClassification Report:\n",cr)
 from sklearn import metrics
 cm_display=metrics.ConfusionMatrixDisplay(confusion_matrix=confusion,display_labels=[True,False])
 cm_display.plot()
+```
 ## Output:
 ![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
 <img width="1023" height="706" alt="image" src="https://github.com/user-attachments/assets/ad88eb1e-d168-4d42-8c9f-5a3a75d74a89" />
